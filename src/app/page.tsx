@@ -5,7 +5,7 @@ import {
   User, 
   UserPlus, 
   HeartPulse, 
-  Home, 
+  Home as HomeIcon,
   Ambulance, 
   Pill, 
   Users,
@@ -44,7 +44,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center shrink-0 mt-0.5">
-                    <Home className="w-3.5 h-3.5 text-primary" />
+                    <HomeIcon className="w-3.5 h-3.5 text-primary" />
                   </div>
                   <span className="text-base text-slate-700">Get a doctor to visit you at home when needed</span>
                 </div>
